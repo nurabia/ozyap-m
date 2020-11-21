@@ -52,6 +52,9 @@ nav a:hover {
     background-color: transparent;
     text-decoration: underline;
 }
+nav a i{
+    margin-right: 5px;
+}
 
 main {
     background-color: wheat;
@@ -271,13 +274,6 @@ footer i {
     -moz-box-shadow: 0 0 6px 4px rgb(161, 77, 43);
     box-shadow: 0 0 6px 4px rgb(161, 77, 43);
 }
-@media (max-width: 325px){
-    nav a i: 3px;
-}
-@media (min-width: 326px){
-    nav a i: 5px;
-}
-
 
 @media (max-width:768px) {
     menu {
