@@ -1,0 +1,314 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+}
+
+header {
+    color: black;
+    width: 100%;
+    text-align: center;
+    padding: 0.5%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(dk.jpg);
+    background-size: 18% 100%;
+}
+
+nav {
+    background-color: rgb(161, 77, 43);
+    text-align: center;
+    word-spacing: 40px;
+    padding: 1%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: wheat;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+nav a i {
+    margin-right: 5px;
+}
+
+main {
+    background-color: wheat;
+    color: black;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 1.2%;
+    overflow: auto;
+}
+
+#mainResim {
+    margin-top: 1.5%;
+    max-width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    -webkit-box-shadow: 0 0 6px 4px rgb(161, 77, 43);
+    -moz-box-shadow: 0 0 6px 4px rgb(161, 77, 43);
+    box-shadow: 0 0 6px 4px rgb(161, 77, 43);
+}
+
+#gifmain {
+    margin-top: 1.5%;
+    max-width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    -webkit-box-shadow: 0 0 6px 4px rgb(161, 77, 43);
+    -moz-box-shadow: 0 0 6px 4px rgb(161, 77, 43);
+    box-shadow: 0 0 6px 4px rgb(161, 77, 43);
+}
+
+#gif2 {
+    margin-top: 1.5%;
+    max-width: 50%;
+    float: left;
+    margin-right: 5%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    -webkit-box-shadow: 0 0 6px 4px rgb(161, 77, 43);
+    -moz-box-shadow: 0 0 6px 4px rgb(161, 77, 43);
+    box-shadow: 0 0 6px 4px rgb(161, 77, 43);
+}
+
+#gif3 {
+    margin-top: 1.5%;
+    max-width: 50%;
+    float: right;
+    margin-left: 5%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    -webkit-box-shadow: 0 0 6px 4px rgb(161, 77, 43);
+    -moz-box-shadow: 0 0 6px 4px rgb(161, 77, 43);
+    box-shadow: 0 0 6px 4px rgb(161, 77, 43);
+}
+
+.govde {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-left: 10%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+menu {
+    float: left;
+    width: 20%;
+}
+
+menu ul {
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+menu li {
+    list-style-type: none;
+}
+
+menu li a {
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid rgb(161, 77, 43);
+    padding-left: 20px;
+    display: block;
+}
+
+menu li a:hover {
+    color: wheat;
+    background-color: rgb(161, 77, 43);
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    float: bottom;
+    color: black;
+    margin-top: 20%;
+    text-align: center;
+    background-color: wheat;
+    padding: 2px;
+}
+
+footer i {
+    text-align: center;
+    float: right;
+    letter-spacing: 4px;
+    font-size: 25px;
+    padding: 2px;
+}
+
+.cizgili {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border-bottom: 2px solid rgb(161, 77, 43);
+}
+
+.cizgisiz {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.sol {
+    width: 50%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 10%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    float: left;
+    -webkit-box-shadow: 0 0 6px 4px rgb(161, 77, 43);
+    -moz-box-shadow: 0 0 6px 4px rgb(161, 77, 43);
+    box-shadow: 0 0 6px 4px rgb(161, 77, 43);
+}
+
+#yuzmehavuzuresim {
+    width: 50%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-right: 10%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    float: right;
+    -webkit-box-shadow: 0 0 6px 4px rgb(161, 77, 43);
+    -moz-box-shadow: 0 0 6px 4px rgb(161, 77, 43);
+    box-shadow: 0 0 6px 4px rgb(161, 77, 43);
+}
+
+.harita {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 0;
+    margin-right: 10%;
+    width: 80%;
+    text-align: center;
+    padding-top: 75%;
+    float: right;
+}
+
+.haritaiframe {
+    position: absolute;
+    margin-top: 1%;
+    width: 80%;
+    height: 70%;
+    border: none;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+
+#black {
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    -webkit-box-shadow: 0 0 6px 4px rgb(161, 77, 43);
+    -moz-box-shadow: 0 0 6px 4px rgb(161, 77, 43);
+    box-shadow: 0 0 6px 4px rgb(161, 77, 43);
+}
+
+@media (max-width:768px) {
+    menu {
+        display: inline table;
+    }
+    main {
+        width: 90%;
+    }
+    .navyazi {
+        display: none;
+    }
+    #gif2 {
+        max-width: 100%;
+        margin-bottom: 10%;
+    }
+    #gif3 {
+        max-width: 100%;
+        margin-bottom: 10%;
+    }
+}
+
+@media (max-width:500px) {
+    menu {
+        display: inline-table;
+    }
+    .navyazi {
+        display: none;
+    }
+    #gif2 {
+        max-width: 100%;
+        margin-bottom: 10%;
+    }
+    #gif3 {
+        max-width: 100%;
+        margin-bottom: 10%;
+    }
+}
